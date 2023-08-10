@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!--
+      - primary meta tags
+    -->
+    <title>Midhun S - I'm User Interface Designer & Developer.</title>
+    <meta content="Midhun S - I'm User Interface Designer & Developer." name="title">
+    <meta content="This is a personal portfolio html template made by codewithsadee" name="description">
+
+    <!--
+      - favicon
+    -->
+    <link href="./favicon.svg" rel="shortcut icon" type="image/svg+xml">
+
+    <!--
+      - google font link
+    -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!--
+      - custom css link
+    -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!--
+      - preload images
+    -->
+    <link as="image" href="./assets/images/hero-banner.jpg" rel="preload">
+    <link as="image" href="./assets/images/Blog.svg" rel="preload">
+
+</head>
+
+<body>
+
+<!--
+  - #HEADER
+-->
+
+<header class="header" data-header>
+    <div class="container">
+        <a class="logo" href="#">
+            <img alt="Midhun S home" height="24" src="./assets/logo.svg" width="64">
+        </a>
+        <nav class="navbar" data-navbar>
+            <div class="navbar-top">
+                <a class="logo" href="#">
+                    <img alt="Midhun S home" height="24" src="./assets/logo.svg" width="64">
+                </a>
+                <button aria-label="close menu" class="nav-close-btn" data-nav-toggler>
+                    <ion-icon aria-hidden="true" name="close-outline"></ion-icon>
+                </button>
+            </div>
+            <ul class="navbar-list">
+                <li>
+                    <a class="navbar-link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="navbar-link" href="#about">About</a>
+                </li>
+
+                <li>
+                    <a class="navbar-link" href="#clients">Clients</a>
+                </li>
+                <!--
+                <li>
+                    <a href="#blog" class="navbar-link">Blog</a>
+                </li>-->
+                <li>
+                    <a class="navbar-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="wrapper">
+                <a class="contact-link" href="mailto:midhuns[at]fegno[dot]com">midhuns[at]fegno[dot]com</a>
+
+                <a class="contact-link" href="tel:001234567890">(+91) 884-850-6600</a>
+            </div>
+
+            <ul class="social-list">
+                <li>
+                    <a class="social-link text-primary" href="https://twitter.com/midhun35639121/" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link text-primary" href="https://www.linkedin.com/in/midhuns-/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link " href="#" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a class="social-link " href="https://instagram.com/___midhun_s" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button aria-label="open menu" class="nav-open-btn" data-nav-toggler>
+            <ion-icon aria-hidden="true" name="menu-outline"></ion-icon>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+</header>
+<main>
+    <article>
+        <!--
+          - #HERO
+        -->
+        <section aria-label="home" class="section hero" id="home">
+            <div class="container">
+                <figure class="hero-banner">
+                    <img alt="Midhun S" class="w-100" data-reveal="top" height="540"
+                         src="./assets/images/midhun_theme_blue_bg.png" width="560">
+                    <img alt="25+ Projects Done" class="shape shadow" data-reveal="top" data-reveal-delay="0.25s"
+                         height="91" src="./assets/images/hero-shape.svg" width="203">
+                </figure>
+                <div class="hero-content"
+                     style="background-image: url(https://i.gifer.com/6SSp.gif);background-repeat: repeat-x;">
+                    <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                        I'm a Business Development Strategist & Innovator. </h1>
+                    <h5 class="h5" data-reveal="top" data-reveal-delay="0.75s">
+                        Bridging Visions, Inspiring Solutions </h5>
+
+                    <p class="section-text" data-reveal="top" data-reveal-delay="1.25s">
+                        <b class="text-xl">Hello! I'm Midhun S,</b> a dynamic <u>Business Development Manager</u>
+                        specializing in custom software solutions.
+                        Based in vibrant Kerala, India, I'm driven by a passion for fostering growth and innovation.
+                    </p>
+                    <!--
+                                <p class="section-text text-small" data-reveal="bottom" data-reveal-delay="2.0s">
+                                  With 5 years of versatile consulting experience across <i>B2B, Ecommerce,
+                                  and Branding and Optimizations</i>, I am dedicated to forging lasting client relationships.
+                                </p>
+                    -->
+                    <p class="section-text text-small" data-reveal="bottom" data-reveal-delay="3s">
+                        "Let's collaborate to navigate growth and innovation together." </p>
+
+                    <div class="btn-wrapper" data-reveal="bottom" data-reveal-delay="3.5ss">
+                        <a class="btn btn-primary" href="#clients">See My Clients</a>
+
+                        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--
+          - #ABOUT
+        -->
+        <section aria-label="about" class="section about " id="about">
+            <div class="container">
+
+                <div class="wrapper celebrate-bg">
+
+                    <div data-reveal="left">
+                        <h2 class="h2 section-title">What I Do?</h2>
+                        <p class="section-text text-sm mt-2">
+                            Bringing extensive expertise in Sales and Marketing and empowering MSME,
+                            I specialize in Software Solutions tailored for Business Operations and Optimizations. </p>
+                        <p class="section-text text-sm mt-2">
+                            My strengths lie in fostering robust relationships, excelling in presales strategies,
+                            mentoring, closing and delivering exceptional post-sales support. </p>
+                        <p class="section-text text-sm  mt-2">
+                            I am driven by a passion for propelling growth and realizing strategic business objectives
+                            through innovative approaches. </p>
+                    </div>
+
+                    <ul class="progress-list" data-reveal="right">
+
+                        <li class="progress-item">
+
+                            <div class="label-wrapper">
+                                <p>Web Design</p>
+
+                                <span class="span">100 %</span>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="progress-item">
+
+                            <div class="label-wrapper">
+                                <p>Mobile Design</p>
+
+                                <span class="span">80 %</span>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="progress-item">
+
+                            <div class="label-wrapper">
+                                <p>Development</p>
+
+                                <span class="span">85 %</span>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="progress-item">
+
+                            <div class="label-wrapper">
+                                <p>SEO</p>
+
+                                <span class="span">90 %</span>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="grid-list">
+
+                    <li data-reveal="bottom">
+                        <div class="about-card">
+
+                            <div class="card-icon">
+                                <img alt="web design icon" height="52" loading="lazy" src="./assets/images/icon-1.svg"
+                                     width="52">
+                            </div>
+                            <h3 class="h4 card-title">Web Design</h3>
+                            <p class="card-text">Crafting visually appealing and user-centric websites that captivate
+                                audiences. Elevating online presence through compelling design strategies.</p>
+                        </div>
+                    </li>
+                    <li data-reveal="bottom" data-reveal-delay="0.25s">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img alt="mobile design icon" height="52" loading="lazy" src="./assets/images/icon-2.svg"
+                                     width="52">
+                            </div>
+                            <h3 class="h4 card-title">Mobile Design</h3>
+                            <p class="card-text">
+                                Ensuring seamless and engaging mobile experiences with intuitive interfaces and
+                                responsive design, enhancing user accessibility and satisfaction. </p>
+                        </div>
+                    </li>
+                    <li data-reveal="bottom" data-reveal-delay="0.5s">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img alt="web development icon" height="52" loading="lazy" src="./assets/images/icon-3.svg"
+                                     width="52">
+                            </div>
+                            <h3 class="h4 card-title">Development</h3>
+                            <p class="card-text">
+                                Building robust digital solutions with cutting-edge technologies. Transforming ideas
+                                into functional and scalable software applications for diverse business needs. </p>
+                        </div>
+                    </li>
+
+                    <li data-reveal="bottom" data-reveal-delay="0.75s">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <img alt="web seo icon" height="52" loading="lazy" src="./assets/images/icon-4.svg"
+                                     width="52">
+                            </div>
+                            <h3 class="h4 card-title">SEO</h3>
+                            <p class="card-text">Optimizing online visibility through strategic SEO techniques.
+                                Enhancing search engine rankings and driving organic traffic to maximize digital reach
+                                and impact</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--
+          - #PROJECT
+        -->
+        <section aria-labelledby="project-label" class="section project" id="clients">
+            <div class="container">
+                <div class="title-wrapper" data-reveal="top">
+                    <div>
+                        <h2 class="h2 section-title" id="project-label">Proud Clients</h2>
+                        <p class="section-text">Check out some of my latest clients / projects with creative ideas. </p>
+                    </div>
+                    <a class="btn btn-secondary" href="#">See All Projects</a>
+                </div>
+                <ul class="grid-list">
+                    <li>
+                        <div class="project-card project-card-1 shadow" style="background-color: #f8f5fb">
+                            <div class="card-content" data-reveal="left">
+                                <p class="card-tag" style="color: #1E4B8E">Web Design</p>
+                                <h3 class="h3 card-title">Snowlake Theme</h3>
+                                <p class="card-text">
+                                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.
+                                    Scelerisque id ligula
+                                    porta felis euismod semper. Fusce dapibus tellus cursus. </p>
+
+                                <a class="btn-text" href="#" style="color: #1E4B8E">
+                                    <span class="span">See Project</span>
+
+                                    <ion-icon aria-hidden="true" name="arrow-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+
+                            <figure class="card-banner" data-reveal="right">
+                                <img alt="Web Design" class="w-100" height="370" loading="lazy"
+                                     src="./assets/images/project-1.png" width="650">
+                            </figure>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="project-card project-card-2 shadow" style="background-color: #f1f5fd">
+
+                            <div class="card-content" data-reveal="right">
+
+                                <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                                <h3 class="h3 card-title">Budget App</h3>
+
+                                <p class="card-text">
+                                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.
+                                    Scelerisque id ligula
+                                    porta felis euismod semper. Fusce dapibus tellus cursus. </p>
+
+                                <a class="btn-text" href="#" style="color: #3f78e0">
+                                    <span class="span">See Project</span>
+
+                                    <ion-icon aria-hidden="true" name="arrow-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+
+                            <figure class="card-banner" data-reveal="left">
+                                <img alt="Web Design" class="w-100" height="367" loading="lazy"
+                                     src="./assets/images/project-2.png" width="600">
+                            </figure>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="project-card project-card-3 shadow" style="background-color: #f5faf7">
+
+                            <div class="card-content" data-reveal="left">
+
+                                <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                                <h3 class="h3 card-title">Missio Theme</h3>
+
+                                <p class="card-text">
+                                    Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta
+                                    lobortis. Scelerisque
+                                    id ligula felis. </p>
+
+                                <a class="btn-text" href="#" style="color: #7cb798">
+                                    <span class="span">See Project</span>
+
+                                    <ion-icon aria-hidden="true" name="arrow-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+
+                            <figure class="card-banner" data-reveal="right">
+                                <img alt="Web Design" class="w-100" height="367" loading="lazy"
+                                     src="./assets/images/project-3.png" width="600">
+                            </figure>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="project-card project-card-4 shadow" style="background-color: #fcf4f6">
+
+                            <div class="card-content" data-reveal="left">
+
+                                <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                                <h3 class="h3 card-title">Storage App</h3>
+
+                                <p class="card-text">
+                                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis.
+                                    Scelerisque id ligula
+                                    porta felis euismod semper. </p>
+
+                                <a class="btn-text" href="#" style="color: #d16b86">
+                                    <span class="span">See Project</span>
+
+                                    <ion-icon aria-hidden="true" name="arrow-forward-outline"></ion-icon>
+                                </a>
+
+                            </div>
+
+                            <figure class="card-banner" data-reveal="right">
+                                <img alt="Mobile Design" class="w-100" height="370" loading="lazy"
+                                     src="./assets/images/project-4.png" width="620">
+                            </figure>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+        <!--
+          - #CONTACT
+        -->
+        <section aria-label="contact" class="section contact" id="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-content" data-reveal="left">
+                        <img alt="" class="cover-img" src="/assets/images/contact.gif">
+                        <div class="card-icon">
+                            <img alt="envelop icon" height="44" loading="lazy" src="./assets/images/icon-5.svg"
+                                 width="44">
+                        </div>
+                        <div style="background-color: #fff8">
+                            <h2 class="h2 section-title">Let's formulate your dreams together.</h2>
+                            <p class="section-text">
+                                I bring rapid solutions to make the life of businesses easier.
+                                Have any questions? Reach out to me your favorite mailbox. </p>
+                        </div>
+                    </div>
+
+                    <div class="btn-wrapper" data-reveal="right">
+                        <textarea class="input-field" cols="30" id="id_message" name="message" placeholder="message"
+                                  rows="10">
+Hello Midhun,
+I am looking for a proposal for my idea. If you are interested,
+You can contact me on:
+
+                        </textarea>
+                        <input class="input-field" id="id_name" name="name" placeholder="Name *" required type="text">
+                        <a class="btn btn-gmail mt-2" href="" id="composeGmail" target="_blank">Open Gmail</a>
+                        <a class="btn btn-secondary mt-2" href="" id="composeOutlook" target="_blank">Open Outlook</a>
+                        <a class="btn btn-whatsapp  mt-2" href="" id="composeWhatsapp" target="_blank">Contact on
+                            Whatsapp</a>
+                        <a class="btn btn-secondary mt-2" href="" id="composeLinkedin" target="_blank">Open Linkedin</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <div class="container mt-2">
+        <img alt="" class="img rounded" src="/assets/images/system.gif" style="margin:80px auto;" width="40%"/>
+    </div>
+</main>
+
+
+<!--
+  - #FOOTER
+-->
+
+<footer class="footer">
+    <div class="container">
+
+        <p class="copyright">
+            © 2023 @midhuns.
+            <!-- Courtsy and credits --><a href="https://github.com/codewithsadee/" referrerpolicy="no-referrer"
+                                           target="_blank"></a>
+        </p>
+
+        <ul class="social-list">
+            <li>
+                <a class="social-link text-primary" href="https://twitter.com/midhun35639121/" target="_blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a class="social-link text-primary" href="https://www.linkedin.com/in/midhuns-/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a class="social-link " href="#" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a class="social-link " href="https://instagram.com/___midhun_s" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
