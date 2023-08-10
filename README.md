@@ -1,66 +1,43 @@
 
-# 
-- 👋 Hi, I’m @midhuns97
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-Use tools of the trade
+# Hey there! 👋 I'm Midhun S
 
+Welcome to my GitHub profile! I'm a seasoned Business Development Manager with a passion for driving growth and optimizing business operations. With a strong focus on B2B, Ecommerce, and Business Internal Apps, I specialize in Custom Software Development solutions tailored to your needs.
 
+## About Me
 
+- 💼 Business Development Manager with over 5 years of experience in driving sales and fostering robust client relationships.
+- 🚀 Passionate about propelling growth and achieving strategic business objectives through innovative solutions.
+- 🌐 Expertise in Sales & Marketing, Team Management, and delivering exceptional post-sales support.
+- 🎯 Specialized in Software Solutions for diverse industries and niches.
+- 📫 Reach me over midhun@fegno.com
 
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/julia-portfolio)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/julia-portfolio?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/julia-portfolio?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/wjqiFCTssTI?style=social)](https://youtu.be/wjqiFCTssTI)
+## What I Do
+Bringing extensive expertise in Sales and Marketing and empowering MSME, I specialize in Software Solutions tailored for Business Operations and Optimizations. My strengths lie in fostering robust relationships, excelling in presales strategies, mentoring, closing, and delivering exceptional post-sales support. I am driven by a passion for propelling growth and realizing strategic business objectives through innovative approaches.
 
-  <br />
-  <br />
+## My Mission
+My mission is to bridge the gap between cutting-edge technology and business success. Through strategic business development, innovative presales approaches, and exceptional post-sales support, I'm committed to ensuring businesses harness the power of software to its fullest.
 
-  <h2 align="center">Julia - Portfolio Website</h2>
+## Services
 
-  A fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+### Web Design
+Crafting visually appealing and user-centric websites that captivate audiences. Elevating online presence through compelling design strategies.
 
-  <a href="https://codewithsadee.github.io/julia-portfolio/"><strong>➥ Live Demo</strong></a>
+### Mobile Design
+Ensuring seamless and engaging mobile experiences with intuitive interfaces and responsive design, enhancing user accessibility and satisfaction.
 
-</div>
+### Development
+Building robust digital solutions with cutting-edge technologies. Transforming ideas into functional and scalable software applications for diverse business needs.
 
-<br />
+### SEO
+Optimizing online visibility through strategic SEO techniques. Enhancing search engine rankings and driving organic traffic to maximize digital reach and impact.
 
-### Demo Screeshots
+## Let's Connect
 
-![Julia Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+📫 Feel free to reach out to me via email at [midhun@fegno.com](mailto:midhun@fegno.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/midhuns-/) for potential collaborations, discussions, or queries.
 
-### Prerequisites
+Looking forward to exploring new opportunities and creating meaningful connections in the business and tech world!
 
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Julia** locally, run this command on your git bash:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/julia-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/julia-portfolio.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.
+<!---
+midhuns97/midhuns97 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
